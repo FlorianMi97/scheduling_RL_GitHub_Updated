@@ -1,0 +1,10 @@
+events.out.tfevents.*
+*.jl.*.cov
+*.jl.cov
+*.jl.mem
+/Manifest.toml
+/docs/build/
+Debug.jl
+tryingFlux.jl
+fooling_around.jl
+*.pyc

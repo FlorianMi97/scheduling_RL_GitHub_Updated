@@ -1,0 +1,2647 @@
+{
+    "resources": [
+        "RES_1_1",
+        "RES_1_2",
+        "RES_1_3",
+        "RES_1_4",
+        "RES_2_1",
+        "RES_2_2",
+        "RES_2_3",
+        "RES_3_1",
+        "RES_3_2",
+        "RES_4_1",
+        "RES_4_2",
+        "RES_4_3"
+    ],
+    "resource_stage": {
+        "RES_1_1": 1,
+        "RES_1_2": 1,
+        "RES_1_3": 1,
+        "RES_1_4": 1,
+        "RES_2_1": 2,
+        "RES_2_2": 2,
+        "RES_2_3": 2,
+        "RES_3_1": 3,
+        "RES_3_2": 3,
+        "RES_4_1": 4,
+        "RES_4_2": 4,
+        "RES_4_3": 4
+    },
+    "stage_resource": {
+        "1": [
+            "RES_1_1",
+            "RES_1_2",
+            "RES_1_3",
+            "RES_1_4"
+        ],
+        "2": [
+            "RES_2_1",
+            "RES_2_2",
+            "RES_2_3"
+        ],
+        "3": [
+            "RES_3_1",
+            "RES_3_2"
+        ],
+        "4": [
+            "RES_4_1",
+            "RES_4_2",
+            "RES_4_3"
+        ]
+    },
+    "NrStages": 4,
+    "products": [
+        "PRODUCT_1",
+        "PRODUCT_2",
+        "PRODUCT_3",
+        "PRODUCT_4"
+    ],
+    "operations": [
+        "OP_1",
+        "OP_2",
+        "OP_4",
+        "OP_3"
+    ],
+    "product_operation_stage": {
+        "PRODUCT_1": {
+            "OP_1": 1,
+            "OP_2": 2,
+            "OP_3": 3,
+            "OP_4": 4
+        },
+        "PRODUCT_2": {
+            "OP_1": 1,
+            "OP_2": 2,
+            "OP_3": 3,
+            "OP_4": 4
+        },
+        "PRODUCT_3": {
+            "OP_1": 1,
+            "OP_2": 2,
+            "OP_3": 3,
+            "OP_4": 4
+        },
+        "PRODUCT_4": {
+            "OP_1": 1,
+            "OP_2": 2,
+            "OP_3": 3,
+            "OP_4": 4
+        }
+    },
+    "operations_per_product": {
+        "PRODUCT_1": [
+            "OP_1",
+            "OP_2",
+            "OP_3",
+            "OP_4"
+        ],
+        "PRODUCT_2": [
+            "OP_1",
+            "OP_2",
+            "OP_3",
+            "OP_4"
+        ],
+        "PRODUCT_3": [
+            "OP_1",
+            "OP_2",
+            "OP_3",
+            "OP_4"
+        ],
+        "PRODUCT_4": [
+            "OP_1",
+            "OP_2",
+            "OP_3",
+            "OP_4"
+        ]
+    },
+    "operation_machine_compatibility": {
+        "PRODUCT_1": {
+            "OP_1": [
+                "RES_1_1",
+                "RES_1_2",
+                "RES_1_3",
+                "RES_1_4"
+            ],
+            "OP_2": [
+                "RES_2_1",
+                "RES_2_2",
+                "RES_2_3"
+            ],
+            "OP_3": [
+                "RES_3_1",
+                "RES_3_2"
+            ],
+            "OP_4": [
+                "RES_4_1",
+                "RES_4_2",
+                "RES_4_3"
+            ]
+        },
+        "PRODUCT_2": {
+            "OP_1": [
+                "RES_1_1",
+                "RES_1_2",
+                "RES_1_3",
+                "RES_1_4"
+            ],
+            "OP_2": [
+                "RES_2_1",
+                "RES_2_2",
+                "RES_2_3"
+            ],
+            "OP_3": [
+                "RES_3_1",
+                "RES_3_2"
+            ],
+            "OP_4": [
+                "RES_4_1",
+                "RES_4_2",
+                "RES_4_3"
+            ]
+        },
+        "PRODUCT_3": {
+            "OP_1": [
+                "RES_1_1",
+                "RES_1_2",
+                "RES_1_3",
+                "RES_1_4"
+            ],
+            "OP_2": [
+                "RES_2_1",
+                "RES_2_2",
+                "RES_2_3"
+            ],
+            "OP_3": [
+                "RES_3_1",
+                "RES_3_2"
+            ],
+            "OP_4": [
+                "RES_4_1",
+                "RES_4_2",
+                "RES_4_3"
+            ]
+        },
+        "PRODUCT_4": {
+            "OP_1": [
+                "RES_1_1",
+                "RES_1_2",
+                "RES_1_3",
+                "RES_1_4"
+            ],
+            "OP_2": [
+                "RES_2_1",
+                "RES_2_2",
+                "RES_2_3"
+            ],
+            "OP_3": [
+                "RES_3_1",
+                "RES_3_2"
+            ],
+            "OP_4": [
+                "RES_4_1",
+                "RES_4_2",
+                "RES_4_3"
+            ]
+        }
+    },
+    "processing_time": {
+        "PRODUCT_1": {
+            "OP_1": {
+                "RES_1_1": {
+                    "type": "Exponential",
+                    "mean": 200,
+                    "min": 160.0,
+                    "parameters": [
+                        39.99999999999999
+                    ]
+                },
+                "RES_1_2": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                },
+                "RES_1_3": {
+                    "type": "Exponential",
+                    "mean": 164,
+                    "min": 131.20000000000002,
+                    "parameters": [
+                        32.79999999999999
+                    ]
+                },
+                "RES_1_4": {
+                    "type": "Exponential",
+                    "mean": 91,
+                    "min": 72.8,
+                    "parameters": [
+                        18.199999999999996
+                    ]
+                }
+            },
+            "OP_2": {
+                "RES_2_1": {
+                    "type": "Exponential",
+                    "mean": 38,
+                    "min": 30.400000000000002,
+                    "parameters": [
+                        7.599999999999998
+                    ]
+                },
+                "RES_2_2": {
+                    "type": "Exponential",
+                    "mean": 60,
+                    "min": 48.0,
+                    "parameters": [
+                        11.999999999999996
+                    ]
+                },
+                "RES_2_3": {
+                    "type": "Exponential",
+                    "mean": 38,
+                    "min": 30.400000000000002,
+                    "parameters": [
+                        7.599999999999998
+                    ]
+                }
+            },
+            "OP_3": {
+                "RES_3_1": {
+                    "type": "Exponential",
+                    "mean": 136,
+                    "min": 108.80000000000001,
+                    "parameters": [
+                        27.199999999999996
+                    ]
+                },
+                "RES_3_2": {
+                    "type": "Exponential",
+                    "mean": 53,
+                    "min": 42.400000000000006,
+                    "parameters": [
+                        10.599999999999998
+                    ]
+                }
+            },
+            "OP_4": {
+                "RES_4_1": {
+                    "type": "Exponential",
+                    "mean": 138,
+                    "min": 110.4,
+                    "parameters": [
+                        27.599999999999994
+                    ]
+                },
+                "RES_4_2": {
+                    "type": "Exponential",
+                    "mean": 135,
+                    "min": 108.0,
+                    "parameters": [
+                        26.999999999999993
+                    ]
+                },
+                "RES_4_3": {
+                    "type": "Exponential",
+                    "mean": 156,
+                    "min": 124.80000000000001,
+                    "parameters": [
+                        31.199999999999992
+                    ]
+                }
+            }
+        },
+        "PRODUCT_2": {
+            "OP_1": {
+                "RES_1_1": {
+                    "type": "Exponential",
+                    "mean": 167,
+                    "min": 133.6,
+                    "parameters": [
+                        33.39999999999999
+                    ]
+                },
+                "RES_1_2": {
+                    "type": "Exponential",
+                    "mean": 90,
+                    "min": 72.0,
+                    "parameters": [
+                        17.999999999999996
+                    ]
+                },
+                "RES_1_3": {
+                    "type": "Exponential",
+                    "mean": 186,
+                    "min": 148.8,
+                    "parameters": [
+                        37.19999999999999
+                    ]
+                },
+                "RES_1_4": {
+                    "type": "Exponential",
+                    "mean": 116,
+                    "min": 92.80000000000001,
+                    "parameters": [
+                        23.199999999999996
+                    ]
+                }
+            },
+            "OP_2": {
+                "RES_2_1": {
+                    "type": "Exponential",
+                    "mean": 69,
+                    "min": 55.2,
+                    "parameters": [
+                        13.799999999999997
+                    ]
+                },
+                "RES_2_2": {
+                    "type": "Exponential",
+                    "mean": 80,
+                    "min": 64.0,
+                    "parameters": [
+                        15.999999999999996
+                    ]
+                },
+                "RES_2_3": {
+                    "type": "Exponential",
+                    "mean": 137,
+                    "min": 109.60000000000001,
+                    "parameters": [
+                        27.399999999999995
+                    ]
+                }
+            },
+            "OP_3": {
+                "RES_3_1": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "RES_3_2": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                }
+            },
+            "OP_4": {
+                "RES_4_1": {
+                    "type": "Exponential",
+                    "mean": 52,
+                    "min": 41.6,
+                    "parameters": [
+                        10.399999999999999
+                    ]
+                },
+                "RES_4_2": {
+                    "type": "Exponential",
+                    "mean": 92,
+                    "min": 73.60000000000001,
+                    "parameters": [
+                        18.399999999999995
+                    ]
+                },
+                "RES_4_3": {
+                    "type": "Exponential",
+                    "mean": 129,
+                    "min": 103.2,
+                    "parameters": [
+                        25.799999999999994
+                    ]
+                }
+            }
+        },
+        "PRODUCT_3": {
+            "OP_1": {
+                "RES_1_1": {
+                    "type": "Exponential",
+                    "mean": 140,
+                    "min": 112.0,
+                    "parameters": [
+                        27.999999999999993
+                    ]
+                },
+                "RES_1_2": {
+                    "type": "Exponential",
+                    "mean": 57,
+                    "min": 45.6,
+                    "parameters": [
+                        11.399999999999997
+                    ]
+                },
+                "RES_1_3": {
+                    "type": "Exponential",
+                    "mean": 164,
+                    "min": 131.20000000000002,
+                    "parameters": [
+                        32.79999999999999
+                    ]
+                },
+                "RES_1_4": {
+                    "type": "Exponential",
+                    "mean": 133,
+                    "min": 106.4,
+                    "parameters": [
+                        26.599999999999994
+                    ]
+                }
+            },
+            "OP_2": {
+                "RES_2_1": {
+                    "type": "Exponential",
+                    "mean": 40,
+                    "min": 32.0,
+                    "parameters": [
+                        7.999999999999998
+                    ]
+                },
+                "RES_2_2": {
+                    "type": "Exponential",
+                    "mean": 68,
+                    "min": 54.400000000000006,
+                    "parameters": [
+                        13.599999999999998
+                    ]
+                },
+                "RES_2_3": {
+                    "type": "Exponential",
+                    "mean": 94,
+                    "min": 75.2,
+                    "parameters": [
+                        18.799999999999997
+                    ]
+                }
+            },
+            "OP_3": {
+                "RES_3_1": {
+                    "type": "Exponential",
+                    "mean": 24,
+                    "min": 19.200000000000003,
+                    "parameters": [
+                        4.799999999999999
+                    ]
+                },
+                "RES_3_2": {
+                    "type": "Exponential",
+                    "mean": 20,
+                    "min": 16.0,
+                    "parameters": [
+                        3.999999999999999
+                    ]
+                }
+            },
+            "OP_4": {
+                "RES_4_1": {
+                    "type": "Exponential",
+                    "mean": 66,
+                    "min": 52.800000000000004,
+                    "parameters": [
+                        13.199999999999998
+                    ]
+                },
+                "RES_4_2": {
+                    "type": "Exponential",
+                    "mean": 30,
+                    "min": 24.0,
+                    "parameters": [
+                        5.999999999999998
+                    ]
+                },
+                "RES_4_3": {
+                    "type": "Exponential",
+                    "mean": 46,
+                    "min": 36.800000000000004,
+                    "parameters": [
+                        9.199999999999998
+                    ]
+                }
+            }
+        },
+        "PRODUCT_4": {
+            "OP_1": {
+                "RES_1_1": {
+                    "type": "Exponential",
+                    "mean": 22,
+                    "min": 17.6,
+                    "parameters": [
+                        4.399999999999999
+                    ]
+                },
+                "RES_1_2": {
+                    "type": "Exponential",
+                    "mean": 14,
+                    "min": 11.200000000000001,
+                    "parameters": [
+                        2.7999999999999994
+                    ]
+                },
+                "RES_1_3": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "RES_1_4": {
+                    "type": "Exponential",
+                    "mean": 24,
+                    "min": 19.200000000000003,
+                    "parameters": [
+                        4.799999999999999
+                    ]
+                }
+            },
+            "OP_2": {
+                "RES_2_1": {
+                    "type": "Exponential",
+                    "mean": 131,
+                    "min": 104.80000000000001,
+                    "parameters": [
+                        26.199999999999996
+                    ]
+                },
+                "RES_2_2": {
+                    "type": "Exponential",
+                    "mean": 46,
+                    "min": 36.800000000000004,
+                    "parameters": [
+                        9.199999999999998
+                    ]
+                },
+                "RES_2_3": {
+                    "type": "Exponential",
+                    "mean": 46,
+                    "min": 36.800000000000004,
+                    "parameters": [
+                        9.199999999999998
+                    ]
+                }
+            },
+            "OP_3": {
+                "RES_3_1": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "RES_3_2": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                }
+            },
+            "OP_4": {
+                "RES_4_1": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "RES_4_2": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "RES_4_3": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                }
+            }
+        }
+    },
+    "setup_time": {
+        "RES_1_1": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 44,
+                    "min": 35.2,
+                    "parameters": [
+                        8.799999999999997
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 37,
+                    "min": 29.6,
+                    "parameters": [
+                        7.399999999999999
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 49,
+                    "min": 39.2,
+                    "parameters": [
+                        9.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 62,
+                    "min": 49.6,
+                    "parameters": [
+                        12.399999999999997
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 80,
+                    "min": 64.0,
+                    "parameters": [
+                        15.999999999999996
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 90,
+                    "min": 72.0,
+                    "parameters": [
+                        17.999999999999996
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 83,
+                    "min": 66.4,
+                    "parameters": [
+                        16.599999999999998
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 94,
+                    "min": 75.2,
+                    "parameters": [
+                        18.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 97,
+                    "min": 77.60000000000001,
+                    "parameters": [
+                        19.399999999999995
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 73,
+                    "min": 58.400000000000006,
+                    "parameters": [
+                        14.599999999999996
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_1_2": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 89,
+                    "min": 71.2,
+                    "parameters": [
+                        17.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 57,
+                    "min": 45.6,
+                    "parameters": [
+                        11.399999999999997
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 93,
+                    "min": 74.4,
+                    "parameters": [
+                        18.599999999999994
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 84,
+                    "min": 67.2,
+                    "parameters": [
+                        16.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 29,
+                    "min": 23.200000000000003,
+                    "parameters": [
+                        5.799999999999999
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 59,
+                    "min": 47.2,
+                    "parameters": [
+                        11.799999999999997
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 80,
+                    "min": 64.0,
+                    "parameters": [
+                        15.999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 97,
+                    "min": 77.60000000000001,
+                    "parameters": [
+                        19.399999999999995
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 92,
+                    "min": 73.60000000000001,
+                    "parameters": [
+                        18.399999999999995
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 84,
+                    "min": 67.2,
+                    "parameters": [
+                        16.799999999999997
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 55,
+                    "min": 44.0,
+                    "parameters": [
+                        10.999999999999998
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_1_3": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 56,
+                    "min": 44.800000000000004,
+                    "parameters": [
+                        11.199999999999998
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 77,
+                    "min": 61.6,
+                    "parameters": [
+                        15.399999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 89,
+                    "min": 71.2,
+                    "parameters": [
+                        17.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 75,
+                    "min": 60.0,
+                    "parameters": [
+                        14.999999999999996
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 71,
+                    "min": 56.800000000000004,
+                    "parameters": [
+                        14.199999999999998
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 37,
+                    "min": 29.6,
+                    "parameters": [
+                        7.399999999999999
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 33,
+                    "min": 26.400000000000002,
+                    "parameters": [
+                        6.599999999999999
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 39,
+                    "min": 31.200000000000003,
+                    "parameters": [
+                        7.799999999999998
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 71,
+                    "min": 56.800000000000004,
+                    "parameters": [
+                        14.199999999999998
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 64,
+                    "min": 51.2,
+                    "parameters": [
+                        12.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_1_4": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 94,
+                    "min": 75.2,
+                    "parameters": [
+                        18.799999999999997
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 84,
+                    "min": 67.2,
+                    "parameters": [
+                        16.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 99,
+                    "min": 79.2,
+                    "parameters": [
+                        19.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 73,
+                    "min": 58.400000000000006,
+                    "parameters": [
+                        14.599999999999996
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 66,
+                    "min": 52.800000000000004,
+                    "parameters": [
+                        13.199999999999998
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 99,
+                    "min": 79.2,
+                    "parameters": [
+                        19.799999999999997
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 75,
+                    "min": 60.0,
+                    "parameters": [
+                        14.999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 62,
+                    "min": 49.6,
+                    "parameters": [
+                        12.399999999999997
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 98,
+                    "min": 78.4,
+                    "parameters": [
+                        19.599999999999994
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_2_1": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 91,
+                    "min": 72.8,
+                    "parameters": [
+                        18.199999999999996
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 69,
+                    "min": 55.2,
+                    "parameters": [
+                        13.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 23,
+                    "min": 18.400000000000002,
+                    "parameters": [
+                        4.599999999999999
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 59,
+                    "min": 47.2,
+                    "parameters": [
+                        11.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 21,
+                    "min": 16.8,
+                    "parameters": [
+                        4.199999999999999
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 33,
+                    "min": 26.400000000000002,
+                    "parameters": [
+                        6.599999999999999
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 90,
+                    "min": 72.0,
+                    "parameters": [
+                        17.999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 82,
+                    "min": 65.60000000000001,
+                    "parameters": [
+                        16.399999999999995
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_2_2": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 97,
+                    "min": 77.60000000000001,
+                    "parameters": [
+                        19.399999999999995
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 70,
+                    "min": 56.0,
+                    "parameters": [
+                        13.999999999999996
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 78,
+                    "min": 62.400000000000006,
+                    "parameters": [
+                        15.599999999999996
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 46,
+                    "min": 36.800000000000004,
+                    "parameters": [
+                        9.199999999999998
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 42,
+                    "min": 33.6,
+                    "parameters": [
+                        8.399999999999999
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 57,
+                    "min": 45.6,
+                    "parameters": [
+                        11.399999999999997
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 27,
+                    "min": 21.6,
+                    "parameters": [
+                        5.399999999999999
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 49,
+                    "min": 39.2,
+                    "parameters": [
+                        9.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 23,
+                    "min": 18.400000000000002,
+                    "parameters": [
+                        4.599999999999999
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 43,
+                    "min": 34.4,
+                    "parameters": [
+                        8.599999999999998
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 59,
+                    "min": 47.2,
+                    "parameters": [
+                        11.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_2_3": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 54,
+                    "min": 43.2,
+                    "parameters": [
+                        10.799999999999997
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 96,
+                    "min": 76.80000000000001,
+                    "parameters": [
+                        19.199999999999996
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 64,
+                    "min": 51.2,
+                    "parameters": [
+                        12.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 94,
+                    "min": 75.2,
+                    "parameters": [
+                        18.799999999999997
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 64,
+                    "min": 51.2,
+                    "parameters": [
+                        12.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 48,
+                    "min": 38.400000000000006,
+                    "parameters": [
+                        9.599999999999998
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 93,
+                    "min": 74.4,
+                    "parameters": [
+                        18.599999999999994
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 53,
+                    "min": 42.400000000000006,
+                    "parameters": [
+                        10.599999999999998
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 94,
+                    "min": 75.2,
+                    "parameters": [
+                        18.799999999999997
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 65,
+                    "min": 52.0,
+                    "parameters": [
+                        12.999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 69,
+                    "min": 55.2,
+                    "parameters": [
+                        13.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_3_1": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 77,
+                    "min": 61.6,
+                    "parameters": [
+                        15.399999999999997
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 59,
+                    "min": 47.2,
+                    "parameters": [
+                        11.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 85,
+                    "min": 68.0,
+                    "parameters": [
+                        16.999999999999996
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 97,
+                    "min": 77.60000000000001,
+                    "parameters": [
+                        19.399999999999995
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 99,
+                    "min": 79.2,
+                    "parameters": [
+                        19.799999999999997
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 90,
+                    "min": 72.0,
+                    "parameters": [
+                        17.999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 71,
+                    "min": 56.800000000000004,
+                    "parameters": [
+                        14.199999999999998
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_3_2": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 96,
+                    "min": 76.80000000000001,
+                    "parameters": [
+                        19.199999999999996
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 88,
+                    "min": 70.4,
+                    "parameters": [
+                        17.599999999999994
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 90,
+                    "min": 72.0,
+                    "parameters": [
+                        17.999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 94,
+                    "min": 75.2,
+                    "parameters": [
+                        18.799999999999997
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 98,
+                    "min": 78.4,
+                    "parameters": [
+                        19.599999999999994
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 17,
+                    "min": 13.600000000000001,
+                    "parameters": [
+                        3.3999999999999995
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_4_1": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 93,
+                    "min": 74.4,
+                    "parameters": [
+                        18.599999999999994
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 69,
+                    "min": 55.2,
+                    "parameters": [
+                        13.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 56,
+                    "min": 44.800000000000004,
+                    "parameters": [
+                        11.199999999999998
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 22,
+                    "min": 17.6,
+                    "parameters": [
+                        4.399999999999999
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 75,
+                    "min": 60.0,
+                    "parameters": [
+                        14.999999999999996
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 59,
+                    "min": 47.2,
+                    "parameters": [
+                        11.799999999999997
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 74,
+                    "min": 59.2,
+                    "parameters": [
+                        14.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 98,
+                    "min": 78.4,
+                    "parameters": [
+                        19.599999999999994
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 97,
+                    "min": 77.60000000000001,
+                    "parameters": [
+                        19.399999999999995
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 94,
+                    "min": 75.2,
+                    "parameters": [
+                        18.799999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_4_2": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 100,
+                    "min": 80.0,
+                    "parameters": [
+                        19.999999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 52,
+                    "min": 41.6,
+                    "parameters": [
+                        10.399999999999999
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 94,
+                    "min": 75.2,
+                    "parameters": [
+                        18.799999999999997
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 12,
+                    "min": 9.600000000000001,
+                    "parameters": [
+                        2.3999999999999995
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 80,
+                    "min": 64.0,
+                    "parameters": [
+                        15.999999999999996
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 81,
+                    "min": 64.8,
+                    "parameters": [
+                        16.199999999999996
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 68,
+                    "min": 54.400000000000006,
+                    "parameters": [
+                        13.599999999999998
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 11,
+                    "min": 8.8,
+                    "parameters": [
+                        2.1999999999999993
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 59,
+                    "min": 47.2,
+                    "parameters": [
+                        11.799999999999997
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 62,
+                    "min": 49.6,
+                    "parameters": [
+                        12.399999999999997
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        },
+        "RES_4_3": {
+            "PRODUCT_1": {
+                "PRODUCT_1": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 18,
+                    "min": 14.4,
+                    "parameters": [
+                        3.599999999999999
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 10,
+                    "min": 8.0,
+                    "parameters": [
+                        1.9999999999999996
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 86,
+                    "min": 68.8,
+                    "parameters": [
+                        17.199999999999996
+                    ]
+                }
+            },
+            "PRODUCT_2": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 28,
+                    "min": 22.400000000000002,
+                    "parameters": [
+                        5.599999999999999
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 23,
+                    "min": 18.400000000000002,
+                    "parameters": [
+                        4.599999999999999
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 91,
+                    "min": 72.8,
+                    "parameters": [
+                        18.199999999999996
+                    ]
+                }
+            },
+            "PRODUCT_3": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 16,
+                    "min": 12.8,
+                    "parameters": [
+                        3.1999999999999993
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 16,
+                    "min": 12.8,
+                    "parameters": [
+                        3.1999999999999993
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Nonexisting"
+                },
+                "PRODUCT_4": {
+                    "type": "Exponential",
+                    "mean": 78,
+                    "min": 62.400000000000006,
+                    "parameters": [
+                        15.599999999999996
+                    ]
+                }
+            },
+            "PRODUCT_4": {
+                "PRODUCT_1": {
+                    "type": "Exponential",
+                    "mean": 77,
+                    "min": 61.6,
+                    "parameters": [
+                        15.399999999999997
+                    ]
+                },
+                "PRODUCT_2": {
+                    "type": "Exponential",
+                    "mean": 66,
+                    "min": 52.800000000000004,
+                    "parameters": [
+                        13.199999999999998
+                    ]
+                },
+                "PRODUCT_3": {
+                    "type": "Exponential",
+                    "mean": 87,
+                    "min": 69.60000000000001,
+                    "parameters": [
+                        17.399999999999995
+                    ]
+                },
+                "PRODUCT_4": {
+                    "type": "Nonexisting"
+                }
+            }
+        }
+    },
+    "initial_setup": {
+        "RES_1_1": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 3,
+                "min": 2.4000000000000004,
+                "parameters": [
+                    0.5999999999999999
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 7,
+                "min": 5.6000000000000005,
+                "parameters": [
+                    1.3999999999999997
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 10,
+                "min": 8.0,
+                "parameters": [
+                    1.9999999999999996
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 8,
+                "min": 6.4,
+                "parameters": [
+                    1.5999999999999996
+                ]
+            }
+        },
+        "RES_1_2": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 5,
+                "min": 4.0,
+                "parameters": [
+                    0.9999999999999998
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 10,
+                "min": 8.0,
+                "parameters": [
+                    1.9999999999999996
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 9,
+                "min": 7.2,
+                "parameters": [
+                    1.7999999999999996
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 10,
+                "min": 8.0,
+                "parameters": [
+                    1.9999999999999996
+                ]
+            }
+        },
+        "RES_1_3": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 10,
+                "min": 8.0,
+                "parameters": [
+                    1.9999999999999996
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 1,
+                "min": 0.8,
+                "parameters": [
+                    0.19999999999999996
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 8,
+                "min": 6.4,
+                "parameters": [
+                    1.5999999999999996
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 1,
+                "min": 0.8,
+                "parameters": [
+                    0.19999999999999996
+                ]
+            }
+        },
+        "RES_1_4": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 5,
+                "min": 4.0,
+                "parameters": [
+                    0.9999999999999998
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 10,
+                "min": 8.0,
+                "parameters": [
+                    1.9999999999999996
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 6,
+                "min": 4.800000000000001,
+                "parameters": [
+                    1.1999999999999997
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 5,
+                "min": 4.0,
+                "parameters": [
+                    0.9999999999999998
+                ]
+            }
+        },
+        "RES_2_1": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 7,
+                "min": 5.6000000000000005,
+                "parameters": [
+                    1.3999999999999997
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 1,
+                "min": 0.8,
+                "parameters": [
+                    0.19999999999999996
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 10,
+                "min": 8.0,
+                "parameters": [
+                    1.9999999999999996
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 5,
+                "min": 4.0,
+                "parameters": [
+                    0.9999999999999998
+                ]
+            }
+        },
+        "RES_2_2": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 6,
+                "min": 4.800000000000001,
+                "parameters": [
+                    1.1999999999999997
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 9,
+                "min": 7.2,
+                "parameters": [
+                    1.7999999999999996
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 1,
+                "min": 0.8,
+                "parameters": [
+                    0.19999999999999996
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 1,
+                "min": 0.8,
+                "parameters": [
+                    0.19999999999999996
+                ]
+            }
+        },
+        "RES_2_3": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 2,
+                "min": 1.6,
+                "parameters": [
+                    0.3999999999999999
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 5,
+                "min": 4.0,
+                "parameters": [
+                    0.9999999999999998
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 1,
+                "min": 0.8,
+                "parameters": [
+                    0.19999999999999996
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 9,
+                "min": 7.2,
+                "parameters": [
+                    1.7999999999999996
+                ]
+            }
+        },
+        "RES_3_1": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 3,
+                "min": 2.4000000000000004,
+                "parameters": [
+                    0.5999999999999999
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 10,
+                "min": 8.0,
+                "parameters": [
+                    1.9999999999999996
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 6,
+                "min": 4.800000000000001,
+                "parameters": [
+                    1.1999999999999997
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 4,
+                "min": 3.2,
+                "parameters": [
+                    0.7999999999999998
+                ]
+            }
+        },
+        "RES_3_2": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 10,
+                "min": 8.0,
+                "parameters": [
+                    1.9999999999999996
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 3,
+                "min": 2.4000000000000004,
+                "parameters": [
+                    0.5999999999999999
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 5,
+                "min": 4.0,
+                "parameters": [
+                    0.9999999999999998
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 6,
+                "min": 4.800000000000001,
+                "parameters": [
+                    1.1999999999999997
+                ]
+            }
+        },
+        "RES_4_1": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 5,
+                "min": 4.0,
+                "parameters": [
+                    0.9999999999999998
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 8,
+                "min": 6.4,
+                "parameters": [
+                    1.5999999999999996
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 4,
+                "min": 3.2,
+                "parameters": [
+                    0.7999999999999998
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 2,
+                "min": 1.6,
+                "parameters": [
+                    0.3999999999999999
+                ]
+            }
+        },
+        "RES_4_2": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 8,
+                "min": 6.4,
+                "parameters": [
+                    1.5999999999999996
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 1,
+                "min": 0.8,
+                "parameters": [
+                    0.19999999999999996
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 4,
+                "min": 3.2,
+                "parameters": [
+                    0.7999999999999998
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 1,
+                "min": 0.8,
+                "parameters": [
+                    0.19999999999999996
+                ]
+            }
+        },
+        "RES_4_3": {
+            "PRODUCT_1": {
+                "type": "Exponential",
+                "mean": 6,
+                "min": 4.800000000000001,
+                "parameters": [
+                    1.1999999999999997
+                ]
+            },
+            "PRODUCT_2": {
+                "type": "Exponential",
+                "mean": 7,
+                "min": 5.6000000000000005,
+                "parameters": [
+                    1.3999999999999997
+                ]
+            },
+            "PRODUCT_3": {
+                "type": "Exponential",
+                "mean": 3,
+                "min": 2.4000000000000004,
+                "parameters": [
+                    0.5999999999999999
+                ]
+            },
+            "PRODUCT_4": {
+                "type": "Exponential",
+                "mean": 6,
+                "min": 4.800000000000001,
+                "parameters": [
+                    1.1999999999999997
+                ]
+            }
+        }
+    },
+    "arrival_prob": {
+        "PRODUCT_1": 0.25,
+        "PRODUCT_2": 0.25,
+        "PRODUCT_3": 0.25,
+        "PRODUCT_4": 0.25
+    },
+    "workload_machine": {
+        "RES_1_1": 1.0,
+        "RES_1_2": 0.6464357286000572,
+        "RES_1_3": 0.9370168909247065,
+        "RES_1_4": 0.7523618665903236,
+        "RES_2_1": 0.8027483538505582,
+        "RES_2_2": 0.7550338772783662,
+        "RES_2_3": 0.9145910869357762,
+        "RES_3_1": 0.9407386200973374,
+        "RES_3_2": 0.6435728600057258,
+        "RES_4_1": 0.838247924420269,
+        "RES_4_2": 0.7588510354041416,
+        "RES_4_3": 0.8867258326176162
+    },
+    "max_workload": 43.6625,
+    "flexibility_score": 3.0,
+    "epsilon": 0.0,
+    "seed_layout": 42,
+    "orders": {
+        "ORD_01": {
+            "due_date": 1448.419952620285,
+            "product": "PRODUCT_3"
+        },
+        "ORD_02": {
+            "due_date": 368.3824553552079,
+            "product": "PRODUCT_4"
+        },
+        "ORD_03": {
+            "due_date": 1004.7189290297318,
+            "product": "PRODUCT_1"
+        },
+        "ORD_04": {
+            "due_date": 1811.2025318868136,
+            "product": "PRODUCT_4"
+        },
+        "ORD_05": {
+            "due_date": 1292.7595805851731,
+            "product": "PRODUCT_3"
+        },
+        "ORD_06": {
+            "due_date": 1215.7127275024195,
+            "product": "PRODUCT_2"
+        },
+        "ORD_07": {
+            "due_date": 1537.678789353816,
+            "product": "PRODUCT_1"
+        },
+        "ORD_08": {
+            "due_date": 1555.0408786115024,
+            "product": "PRODUCT_4"
+        },
+        "ORD_09": {
+            "due_date": 1598.2838455155165,
+            "product": "PRODUCT_2"
+        },
+        "ORD_10": {
+            "due_date": 742.0324576853083,
+            "product": "PRODUCT_1"
+        },
+        "ORD_11": {
+            "due_date": 398.06307597840197,
+            "product": "PRODUCT_1"
+        },
+        "ORD_12": {
+            "due_date": 633.9387484351865,
+            "product": "PRODUCT_4"
+        },
+        "ORD_13": {
+            "due_date": 642.6094398915648,
+            "product": "PRODUCT_3"
+        },
+        "ORD_14": {
+            "due_date": 451.48153632351915,
+            "product": "PRODUCT_4"
+        },
+        "ORD_15": {
+            "due_date": 1821.7918160861725,
+            "product": "PRODUCT_3"
+        },
+        "ORD_16": {
+            "due_date": 1705.5760596345162,
+            "product": "PRODUCT_3"
+        },
+        "ORD_17": {
+            "due_date": 632.5849188145417,
+            "product": "PRODUCT_4"
+        },
+        "ORD_18": {
+            "due_date": 1387.723628937508,
+            "product": "PRODUCT_2"
+        },
+        "ORD_19": {
+            "due_date": 865.9711152024502,
+            "product": "PRODUCT_3"
+        },
+        "ORD_20": {
+            "due_date": 1680.2573654818593,
+            "product": "PRODUCT_4"
+        },
+        "ORD_21": {
+            "due_date": 976.384760543892,
+            "product": "PRODUCT_3"
+        },
+        "ORD_22": {
+            "due_date": 545.6132107888486,
+            "product": "PRODUCT_4"
+        },
+        "ORD_23": {
+            "due_date": 605.7349421875422,
+            "product": "PRODUCT_3"
+        },
+        "ORD_24": {
+            "due_date": 1155.4294463159429,
+            "product": "PRODUCT_3"
+        },
+        "ORD_25": {
+            "due_date": 800.8782192853064,
+            "product": "PRODUCT_1"
+        },
+        "ORD_26": {
+            "due_date": 1362.9794319254136,
+            "product": "PRODUCT_1"
+        },
+        "ORD_27": {
+            "due_date": 1811.047666211726,
+            "product": "PRODUCT_2"
+        },
+        "ORD_28": {
+            "due_date": 1039.552982227704,
+            "product": "PRODUCT_1"
+        },
+        "ORD_29": {
+            "due_date": 725.0437058681953,
+            "product": "PRODUCT_1"
+        },
+        "ORD_30": {
+            "due_date": 2084.19942974371,
+            "product": "PRODUCT_1"
+        },
+        "ORD_31": {
+            "due_date": 1132.8876719059454,
+            "product": "PRODUCT_2"
+        },
+        "ORD_32": {
+            "due_date": 333.77328836153106,
+            "product": "PRODUCT_3"
+        },
+        "ORD_33": {
+            "due_date": 325.2887496792989,
+            "product": "PRODUCT_2"
+        },
+        "ORD_34": {
+            "due_date": 434.5022061574262,
+            "product": "PRODUCT_2"
+        },
+        "ORD_35": {
+            "due_date": 1437.8345118344469,
+            "product": "PRODUCT_1"
+        },
+        "ORD_36": {
+            "due_date": 1626.3666098599167,
+            "product": "PRODUCT_2"
+        },
+        "ORD_37": {
+            "due_date": 820.3023820156482,
+            "product": "PRODUCT_4"
+        },
+        "ORD_38": {
+            "due_date": 285.95113879439316,
+            "product": "PRODUCT_3"
+        },
+        "ORD_39": {
+            "due_date": 841.4980838836665,
+            "product": "PRODUCT_3"
+        },
+        "ORD_40": {
+            "due_date": 2081.725990589329,
+            "product": "PRODUCT_1"
+        }
+    }
+}

@@ -1,0 +1,794 @@
+{
+    "NrStages" : 3,
+
+    "operation_machine_compatibility": {
+        "CEREAL_1": {
+            "OP_1": [
+                "RES_1",
+                "RES_2"
+            ],
+            "OP_2": [
+                "RES_5",
+                "RES_6"
+            ],
+            "OP_3": [
+                "RES_8",
+                "RES_9"
+            ]
+        },
+        "CEREAL_2": {
+            "OP_1": [
+                "RES_1",
+                "RES_2",
+                "RES_3",
+                "RES_4"
+            ],
+            "OP_2": [
+                "RES_5",
+                "RES_6",
+                "RES_7"
+            ],
+            "OP_3": [
+                "RES_8",
+                "RES_9"
+            ]
+        },
+        "CEREAL_3": {
+            "OP_1": [
+                "RES_1",
+                "RES_2",
+                "RES_3",
+                "RES_4"
+            ],
+            "OP_2": [
+                "RES_5",
+                "RES_6",
+                "RES_7"
+            ],
+            "OP_3": [
+                "RES_8",
+                "RES_9"
+            ]
+        },
+        "CEREAL_4": {
+            "OP_1": [
+                "RES_1",
+                "RES_2",
+                "RES_3",
+                "RES_4"
+            ],
+            "OP_2": [
+                "RES_8",
+                "RES_9"
+            ]
+        }
+    },
+    "operations": [
+        "OP_1",
+        "OP_2",
+        "OP_3"
+    ],
+    "operations_per_product": {
+        "CEREAL_1": [
+            "OP_1",
+            "OP_2",
+            "OP_3"
+        ],
+        "CEREAL_2": [
+            "OP_1",
+            "OP_2",
+            "OP_3"
+        ],
+        "CEREAL_3": [
+            "OP_1",
+            "OP_2",
+            "OP_3"
+        ],
+        "CEREAL_4": [
+            "OP_1",
+            "OP_2"
+        ]
+    },
+    "product_operation_stage": {
+        "CEREAL_1": {
+            "OP_1":1,
+            "OP_2":2,
+            "OP_3":3
+        },
+        "CEREAL_2": {
+            "OP_1":1,
+            "OP_2":2,
+            "OP_3":3
+        },
+        "CEREAL_3": {
+            "OP_1":1,
+            "OP_2":2,
+            "OP_3":3
+        },
+        "CEREAL_4": {
+            "OP_1":1,
+            "OP_2":3
+        }
+    },
+    "orders": {
+        "ORD_01": {
+            "due_date": 2519.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_10": {
+            "due_date": 2519.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_11": {
+            "due_date": 2519.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_12": {
+            "due_date": 2519.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_13": {
+            "due_date": 3959.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_14": {
+            "due_date": 3959.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_15": {
+            "due_date": 5399.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_16": {
+            "due_date": 3959.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_17": {
+            "due_date": 3959.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_18": {
+            "due_date": 5399.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_19": {
+            "due_date": 3959.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_02": {
+            "due_date": 2519.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_20": {
+            "due_date": 3959.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_21": {
+            "due_date": 5399.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_22": {
+            "due_date": 3959.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_23": {
+            "due_date": 3959.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_24": {
+            "due_date": 5399.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_25": {
+            "due_date": 5399.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_26": {
+            "due_date": 3959.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_27": {
+            "due_date": 3959.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_28": {
+            "due_date": 3959.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_29": {
+            "due_date": 3959.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_03": {
+            "due_date": 3959.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_30": {
+            "due_date": 3959.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_31": {
+            "due_date": 5399.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_32": {
+            "due_date": 6839.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_33": {
+            "due_date": 6839.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_34": {
+            "due_date": 6839.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_35": {
+            "due_date": 6839.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_36": {
+            "due_date": 6839.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_37": {
+            "due_date": 6839.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_38": {
+            "due_date": 6839.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_39": {
+            "due_date": 6839.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_04": {
+            "due_date": 2519.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_40": {
+            "due_date": 5399.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_41": {
+            "due_date": 5399.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_42": {
+            "due_date": 5399.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_43": {
+            "due_date": 5399.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_44": {
+            "due_date": 6839.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_45": {
+            "due_date": 6839.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_46": {
+            "due_date": 6839.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_47": {
+            "due_date": 6839.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_48": {
+            "due_date": 6839.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_49": {
+            "due_date": 6839.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_05": {
+            "due_date": 2519.0,
+            "product": "CEREAL_1",
+            "quantity": 40
+        },
+        "ORD_50": {
+            "due_date": 6839.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_51": {
+            "due_date": 6839.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_52": {
+            "due_date": 6839.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_53": {
+            "due_date": 5399.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_54": {
+            "due_date": 5399.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_55": {
+            "due_date": 5399.0,
+            "product": "CEREAL_3",
+            "quantity": 60
+        },
+        "ORD_06": {
+            "due_date": 2519.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_07": {
+            "due_date": 2158.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_08": {
+            "due_date": 2158.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_09": {
+            "due_date": 2158.0,
+            "product": "CEREAL_2",
+            "quantity": 60
+        },
+        "ORD_56": {
+            "due_date": 5399.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_57": {
+            "due_date": 5399.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_58": {
+            "due_date": 2158.0,
+            "product": "CEREAL_4",
+            "quantity": 40
+        },
+        "ORD_59": {
+            "due_date": 5399.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_60": {
+            "due_date": 2158.0,
+            "product": "CEREAL_4",
+            "quantity": 40
+        },
+        "ORD_61": {
+            "due_date": 2158.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_62": {
+            "due_date": 2158.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_63": {
+            "due_date": 8279.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_64": {
+            "due_date": 8279.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_65": {
+            "due_date": 8279.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_66": {
+            "due_date": 6839.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_67": {
+            "due_date": 6839.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        },
+        "ORD_68": {
+            "due_date": 3959.0,
+            "product": "CEREAL_4",
+            "quantity": 60
+        }
+
+    },
+    "processing_time": {
+        "CEREAL_1": {
+            "OP_1": {
+                "RES_1": { "min" : 105.0 , "mean" :140.0, "rate": 35.0},
+                "RES_2": { "min": 90.0 , "mean": 120.0, "rate": 30.0}
+            },
+            "OP_2": {
+                "RES_5": { "min" : 105.0 , "mean" :140.0, "rate": 35.0},
+                "RES_6": {  "min": 90.0 , "mean": 120.0, "rate": 30.0}
+            },
+            "OP_3": {
+                "RES_8": { "min": 33.75, "mean": 45, "rate": 11.25},
+                "RES_9": { "min": 33.75, "mean": 45, "rate": 11.25}
+            }
+        },
+        "CEREAL_2": {
+            "OP_1": {
+                "RES_1": { "min" : 157.5 , "mean" :210.0, "rate": 52.5},
+                "RES_2": { "min": 135.0 , "mean": 180.0, "rate": 45.0},
+                "RES_3": { "min": 135.0 , "mean": 180.0, "rate": 45.0},
+                "RES_4": { "min": 172.5 , "mean": 210.0, "rate": 37.5}
+            },
+            "OP_2": {
+                "RES_5": { "min" : 157.5 , "mean" :210.0, "rate": 52.5},
+                "RES_6": { "min": 135.0 , "mean": 180.0, "rate": 45.0},
+                "RES_7": { "min": 135.0 , "mean": 180.0, "rate": 45.0}
+            },
+            "OP_3": {
+                "RES_8": { "min": 50.625, "mean": 67.5, "rate": 16.875},
+                "RES_9": { "min": 50.625, "mean": 67.5, "rate": 16.875}
+            }
+        },
+        "CEREAL_3": {
+            "OP_1": {
+                "RES_1": { "min" : 157.5 , "mean" :210.0, "rate": 52.5},
+                "RES_2": { "min": 135.0 , "mean": 180.0, "rate": 45.0},
+                "RES_3": { "min": 135.0 , "mean": 180.0, "rate": 45.0},
+                "RES_4": { "min": 112.5 , "mean": 150.0, "rate": 37.5}
+            },
+            "OP_2": {
+                "RES_5": { "min" : 157.5 , "mean" :210.0, "rate": 52.5},
+                "RES_6": { "min": 135.0 , "mean": 180.0, "rate": 45.0},
+                "RES_7": { "min" : 157.5 , "mean" :210.0, "rate": 52.5}
+            },
+            "OP_3": {
+                "RES_8": { "min": 50.625, "mean": 67.5, "rate": 16.875},
+                "RES_9": { "min": 50.625, "mean": 67.5, "rate": 16.875}
+            }
+        },
+        "CEREAL_4": {
+            "OP_1": {
+                "RES_1": { "min": 315.0 , "mean": 420.0, "rate": 105.0},
+                "RES_2": { "min": 270.0 , "mean": 360.0, "rate": 90.0},
+                "RES_3": { "min": 292.5 , "mean": 390.0, "rate": 97.5},
+                "RES_4": { "min": 270.0 , "mean": 360.0, "rate": 90.0}
+            },
+            "OP_2": {
+                "RES_8": { "min": 50.625, "mean": 67.5, "rate": 16.875},
+                "RES_9": { "min": 50.625, "mean": 67.5, "rate": 16.875}
+            }
+        }
+
+
+    },
+    "products": [
+        "CEREAL_1",
+        "CEREAL_2",
+        "CEREAL_3",
+        "CEREAL_4"
+    ],
+    "resources": [
+        "RES_1",
+        "RES_2",
+        "RES_3",
+        "RES_4",
+        "RES_5",
+        "RES_6",
+        "RES_7",
+        "RES_8",
+        "RES_9"
+
+    ],
+
+    "resource_stage":{
+        "RES_1" : 1,
+        "RES_2" : 1,
+        "RES_3" : 1,
+        "RES_4" : 1,
+        "RES_5" : 2,
+        "RES_6" : 2,
+        "RES_7" : 2,
+        "RES_8" : 3,
+        "RES_9" : 3
+
+    },
+
+    "setup_time": {
+        "RES_1": {
+            "CEREAL_1": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_4": { "min": 303.75, "mean": 405.0, "rate": 101.25}
+            },
+            "CEREAL_2": {
+                "CEREAL_1": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_4": { "min": 135.0, "mean": 180.0, "rate": 45.0}
+            },
+            "CEREAL_3": {
+                "CEREAL_1": { "min": 105.0, "mean": 140.0, "rate": 35.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 157.5, "mean": 210.0, "rate": 52.5}
+            },
+            "CEREAL_4": {
+                "CEREAL_1": { "min": 105.0, "mean": 140.0, "rate": 35.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 157.5, "mean": 210.0, "rate": 52.5},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            }
+
+        },
+        "RES_2": {
+            "CEREAL_1": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_3": { "min": 303.75, "mean": 405.0, "rate": 101.25},
+                "CEREAL_4": { "min": 202.5, "mean": 270.0, "rate": 67.5}
+            },
+            "CEREAL_2": {
+                "CEREAL_1": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_4": { "min": 202.5, "mean": 270.0, "rate": 67.5}
+            },
+            "CEREAL_3": {
+                "CEREAL_1": { "min": 157.5, "mean": 210.0, "rate": 52.5},
+                "CEREAL_2": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 202.5, "mean": 270.0, "rate": 67.5}
+            },
+            "CEREAL_4": {
+                "CEREAL_1": { "min": 157.5, "mean": 210.0, "rate": 52.5},
+                "CEREAL_2": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_3": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            }
+        },
+        "RES_3": {
+            "CEREAL_1": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            },
+            "CEREAL_2": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_4": { "min": 18.75, "mean": 25.0, "rate": 6.25}
+            },
+            "CEREAL_3": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 18.75, "mean": 25.0, "rate": 6.25}
+            },
+            "CEREAL_4": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_3": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            }
+
+        },
+        "RES_4": {
+            "CEREAL_1": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            },
+            "CEREAL_2": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_4": { "min": 18.75, "mean": 25.0, "rate": 6.25}
+            },
+            "CEREAL_3": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 18.75, "mean": 25.0, "rate": 6.25}
+            },
+            "CEREAL_4": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_3": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            }
+
+        },
+        "RES_5": {
+            "CEREAL_1": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_4": { "min": 303.75, "mean": 405.0, "rate": 101.25}
+            },
+            "CEREAL_2": {
+                "CEREAL_1": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_4": { "min": 135.0, "mean": 180.0, "rate": 45.0}
+            },
+            "CEREAL_3": {
+                "CEREAL_1": { "min": 105.0, "mean": 140.0, "rate": 35.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 157.5, "mean": 210.0, "rate": 52.5}
+            },
+            "CEREAL_4": {
+                "CEREAL_1": { "min": 105.0, "mean": 140.0, "rate": 35.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 157.5, "mean": 210.0, "rate": 52.5},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            }
+
+        },
+        "RES_6": {
+            "CEREAL_1": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_3": { "min": 303.75, "mean": 405.0, "rate": 101.25},
+                "CEREAL_4": { "min": 202.5, "mean": 270.0, "rate": 67.5}
+            },
+            "CEREAL_2": {
+                "CEREAL_1": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_4": { "min": 202.5, "mean": 270.0, "rate": 67.5}
+            },
+            "CEREAL_3": {
+                "CEREAL_1": { "min": 157.5, "mean": 210.0, "rate": 52.5},
+                "CEREAL_2": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 202.5, "mean": 270.0, "rate": 67.5}
+            },
+            "CEREAL_4": {
+                "CEREAL_1": { "min": 157.5, "mean": 210.0, "rate": 52.5},
+                "CEREAL_2": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_3": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            }
+        },
+        "RES_7": {
+            "CEREAL_1": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            },
+            "CEREAL_2": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_4": { "min": 18.75, "mean": 25.0, "rate": 6.25}
+            },
+            "CEREAL_3": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 18.75, "mean": 25.0, "rate": 6.25}
+            },
+            "CEREAL_4": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_3": { "min": 18.75, "mean": 25.0, "rate": 6.25},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            }
+
+        },
+        "RES_8": {
+            "CEREAL_1": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_4": { "min": 135.0, "mean": 180.0, "rate": 45.0}
+            },
+            "CEREAL_2": {
+                "CEREAL_1": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_4": { "min": 135.0, "mean": 180.0, "rate": 45.0}
+            },
+            "CEREAL_3": {
+                "CEREAL_1": { "min": 105.0, "mean": 140.0, "rate": 35.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 135.0, "mean": 180.0, "rate": 45.0}
+            },
+            "CEREAL_4": {
+                "CEREAL_1": { "min": 105.0, "mean": 140.0, "rate": 35.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 105.0, "mean": 140.0, "rate": 35.0},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            }
+        },
+        "RES_9": {
+            "CEREAL_1": {
+                "CEREAL_1": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 202.5, "mean": 270.0, "rate": 67.5},
+                "CEREAL_4": { "min": 202.5, "mean": 270.0, "rate": 67.5}
+            },
+            "CEREAL_2": {
+                "CEREAL_1": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_2": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_3": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_4": { "min": 135.0, "mean": 180.0, "rate": 45.0}
+            },
+            "CEREAL_3": {
+                "CEREAL_1": { "min": 105.0, "mean": 140.0, "rate": 35.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 0.0, "mean": 0.0, "rate": 0.0},
+                "CEREAL_4": { "min": 135.0, "mean": 180.0, "rate": 45.0}
+            },
+            "CEREAL_4": {
+                "CEREAL_1": { "min": 105.0, "mean": 140.0, "rate": 35.0},
+                "CEREAL_2": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_3": { "min": 135.0, "mean": 180.0, "rate": 45.0},
+                "CEREAL_4": { "min": 0.0, "mean": 0.0, "rate": 0.0}
+            }
+        }
+        
+    }
+}
